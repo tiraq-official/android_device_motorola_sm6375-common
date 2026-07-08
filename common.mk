@@ -103,9 +103,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # Board API level
 BOARD_SHIPPING_API_LEVEL := 30
 
@@ -118,6 +115,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
+
+# Charger
+WITH_LINEAGE_CHARGER := false
 
 # Device ID attestation
 PRODUCT_COPY_FILES += \
@@ -157,6 +157,9 @@ PRODUCT_PACKAGES += \
     gnss_antenna_info.conf \
     gps.conf \
     izat.conf
+
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Health
 PRODUCT_PACKAGES += \
