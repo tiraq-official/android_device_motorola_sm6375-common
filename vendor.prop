@@ -339,3 +339,6 @@ activity_manager.max_cached_processes=64
 
 #blur
 ro.surface_flinger.supports_background_blur=1
+
+# Spatial Audio
+ro.audio.spatializer_enabled=true
