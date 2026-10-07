@@ -874,3 +874,7 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+
+# Spatial Audio
+vendor/lib/soundfx/libspatialaudio.so|d5c42258dfc929e3a4b3dd742771ccce59798f92
+vendor/lib64/soundfx/libspatialaudio.so|7f5b4971e7cbaa952b929d8a88e04b130ada5081
