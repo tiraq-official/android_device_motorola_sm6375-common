@@ -343,6 +343,7 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti \
     android.hardware.usb.gadget-service.qti \
+    DeviceAsWebcam \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     usb_compositions.conf
